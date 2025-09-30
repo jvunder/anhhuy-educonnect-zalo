@@ -1,0 +1,58 @@
+.page-container {
+  padding: 20px;
+  background: #F5F7FA;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1877F2;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.course-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.course-title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.course-instructor {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.course-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-price {
+  color: #1877F2;
+  font-weight: bold;
+}
+
+.course-rating {
+  color: #FF6B35;
+}

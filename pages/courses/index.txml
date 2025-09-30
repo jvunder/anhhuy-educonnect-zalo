@@ -1,0 +1,20 @@
+<view class="page-container">
+  <view class="header">
+    <text class="title">{{title}} 📚</text>
+  </view>
+  
+  <view class="courses-list">
+    <view 
+      wx:for="{{courses}}" 
+      wx:key="id"
+      class="course-item"
+    >
+      <text class="course-title">{{item.title}}</text>
+      <text class="course-instructor">{{item.instructor}}</text>
+      <view class="course-meta">
+        <text class="course-price">{{item.price}}đ</text>
+        <text class="course-rating">⭐ {{item.rating}}</text>
+      </view>
+    </view>
+  </view>
+</view>

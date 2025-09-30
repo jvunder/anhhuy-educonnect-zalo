@@ -1,0 +1,14 @@
+<view class="page-container">
+  <view class="profile-header">
+    <text class="avatar">{{userInfo.avatar}}</text>
+    <text class="name">{{userInfo.name}}</text>
+    <text class="role">{{userInfo.role}}</text>
+  </view>
+  
+  <view class="menu-list">
+    <view class="menu-item">📚 Khóa học của tôi</view>
+    <view class="menu-item">⭐ Đánh giá</view>
+    <view class="menu-item">🎯 Mục tiêu học tập</view>
+    <view class="menu-item">⚙️ Cài đặt</view>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+{
+  "app": {
+    "title": "AnhHuy EduConnect",
+    "headerColor": "#1877F2",
+    "textColor": "#FFFFFF"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/courses/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "AnhHuy EduConnect"
+  },
+  "tabBar": {
+    "backgroundColor": "#1877F2",
+    "selectedColor": "#00C8FF",
+    "color": "#FFFFFF",
+    "items": [
+      { "pagePath": "pages/index/index",   "text": "Trang chủ", "icon": "home" },
+      { "pagePath": "pages/courses/index", "text": "Khóa học","icon": "book" },
+      { "pagePath": "pages/profile/index", "text": "Cá nhân","icon": "user" }
+    ]
+  }
+}
